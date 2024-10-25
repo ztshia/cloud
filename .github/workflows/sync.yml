@@ -3,6 +3,7 @@ name: Sync OSS to GitHub
 on:
   schedule:
     - cron: '*/5 * * * *'  # 每小时运行一次
+    workflow_dispatch:  # 允许手动触发
 
 jobs:
   sync:
