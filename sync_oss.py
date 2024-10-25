@@ -4,7 +4,7 @@ import oss2
 # 配置你的阿里云 OSS 信息
 ACCESS_KEY = os.getenv('ALIYUN_ACCESS_KEY_ID')
 SECRET_KEY = os.getenv('ALIYUN_ACCESS_KEY_SECRET')
-ENDPOINT = 'https://oss-cn-nanjing.aliyuncs.com'
+ENDPOINT = 'oss-cn-nanjing.aliyuncs.com'
 BUCKET_NAME = 'neos'
 LOCAL_DIR = '/'
 
